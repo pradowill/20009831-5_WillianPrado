@@ -1,0 +1,75 @@
+h1 {
+    color: #ffd700;
+    text-align: center;
+    background: rgb(255, 153, 0);
+    font-weight: bold;
+  }
+body{
+  background:rgb(255, 153, 0);
+}
+#menu {
+    background: rgb(255, 153, 0);
+    padding: 20px 40px ;
+    color:orange;
+    border-bottom:3px solid orange;
+    display: flex;
+    flex-direction: column;    
+       
+}
+
+.navbar {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-top: 15px;
+            
+  }
+
+.navbar a {
+     margin: 0 10px;
+  }
+
+.third {
+    border-color: #ffd700;
+    color: #ffd700;
+    box-shadow: 0 0 40px 40px orange inset, 0 0 0 0 orange;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
+  }
+.third:hover {
+    box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+  }
+
+  .texto {
+    text-align: center;
+    color:white;
+  }
+
+  img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card-img-top {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #gmap_canvas img {
+    max-width:none!important;
+    background:none!important;
+    height:50px;
+    width:100%px;
+  }
+  
+  .gm-ui-hover-effect{
+    display: none!important;
+  }
+
+  .imagefundos {
+    width: 300px;
+  }
